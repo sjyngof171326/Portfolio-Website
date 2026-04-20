@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <script src="homepage.js" defer></script>
+        <title>Kaws</title>
+    </head>
+
+    <body>
+        <div class="stickers-layer"></div>
+        <main>
+            <header class="site-header" id="siteHeader">
+                <a href="#cover" class="logo-link">
+                    <img src="logo.png" class="logo" alt="logo">
+                </a>
+
+                <nav class="nav-links">
+                    <a href="#about" class="nav-about">
+                        <img src="about-spray.png" class="nav-spray nav-spray-about" alt="">
+                        <span>About</span>
+                    </a>
+
+                    <a href="creations.html" class="nav-creations">Creations</a>
+                    <a href="exhibitions.html" class="nav-exhibitions">Exhibitions</a>
+                    <a href="collaborations.html" class="nav-collaborations">Collaborations</a>
+
+                    <a href="#contact" class="nav-contact">
+                        <img src="contact-spray.png" class="nav-spray nav-spray-contact" alt="">
+                        <span>Contact</span>
+                    </a>
+                </nav>
+            </header>
+
+            <section class="cover" id="cover">
+                <video autoplay muted playsinline id="video">
+                    <source src="Kaws_1.mp4" type="video/mp4" alt="Cover Video">
+                </video>
+            </section>
+
+            <div id="about"></div>
+            <section class="content" id="designer-section">
+                <video id="sprayVideo" class="spray-bg" muted playsinline preload="auto">
+                    <source src="Designer Spray.webm" type="video/webm">
+                </video>
+
+                <div class="designer-photo-wrap">
+                    <img src="Designer.png" class="designer-photo" alt="designer">
+                </div>
+
+                <div class="designer-info">
+                    <h1>ABOUT DESIGNER</h1>
+
+                    <p>KAWS (born Brian Donnelly, 1974) is a Brooklyn-based artist who chose the name simply because he liked how the letters looked together. He started as a graffiti artist while a teen in the mid-1990s, painting sites around his hometown of Jersey City, New Jersey, and nearby New York City.</p>
+
+                    <p>Over time, his practice evolved into painting over advertisements installed on phone booths, bus shelters, and billboards with characters of his invention. KAWS would remove the posters from their original housing, take them back to his studio, paint on them, then reinstall the transformed works back on the street.</p>
+
+                    <p>He went on to study illustration at the School of the Visual Arts while continuing his graffiti practice with ever-bolder interventions.</p>
+                </div>
+            </section>
+
+            <section id="triangleSection" class="triangle-section triangle-link">
+                <a href="creations.html" class="triangle-link">
+                    <div class="triangle-item creations">
+                        <video class="spray-word-video" muted playsinline preload="auto">
+                            <source src="spray-creations.webm" type="video/webm">
+                        </video>
+                        <h1>CREATIONS</h1>
+                    </div>
+                </a>
+
+                <a href="exhibitions.html" class="triangle-link">
+                    <div class="triangle-item exhibitions">
+                        <video class="spray-word-video" muted playsinline preload="auto">
+                            <source src="spray-exhibitions.webm" type="video/webm">
+                        </video>
+                        <h1>EXHIBITIONS</h1>
+                    </div>
+                </a>
+
+                <a href="collaborations.html" class="triangle-link">
+                    <div class="triangle-item collaborations">
+                        <video class="spray-word-video" muted playsinline preload="auto">
+                            <source src="spray-collaborations.webm" type="video/webm">
+                        </video>
+                        <h1>COLLABORATIONS</h1>
+                    </div>
+                </a>
+            </section>
+
+            <div id="contact"></div>
+            <section class="contact-content">
+                <div class="contact-row">
+                    <div class="contact-item email-item">
+                        <video class="spray spray-email" muted playsinline preload="auto">
+                            <source src="spray-email.webm" type="video/webm">
+                        </video>
+
+                        <div class="contact-info">
+                            <img src="email.png" class="contact-icon" width="64" height="64" alt="gmail">
+                            <p>KAWS.STUDIO@GMAIL.COM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item instagram-item">
+                        <video class="spray spray-instagram" muted playsinline preload="auto">
+                            <source src="spray-instagram.webm" type="video/webm">
+                        </video>
+
+                        <div class="contact-info">
+                            <img src="instagram.png" class="contact-icon" width="64" height="64" alt="instagram">
+                            <p>KAWS</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
