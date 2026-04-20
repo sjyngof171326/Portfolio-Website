@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const rotate = -65 + Math.random() * 130;
       const z = Math.floor(Math.random() * 6) + 1;
 
-      img.src = `/` + file;
+      img.src = `/Portfolio-Website/${file}`;
 
       img.alt = "";
       img.loading = "lazy";
